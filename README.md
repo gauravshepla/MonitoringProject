@@ -9,6 +9,7 @@ Fading Action Bar is a library which implements the cool fading action bar effec
 This library uses the techniques outlined by Cyril Mottier in a recent blog post.
 The way this effect is achieved is by effectively setting the alpha level of Action Bar Drawable from maximum to zero as we scroll up and down. In order to achieve this effect, we need to know when the scroll state of the Scroll View has changed. This might seem like a trivial task, but thanks to Android not implementing an accessible event, we must create a workaround. To do this, we will extend the existing Scroll View and make it fire an event. In order to stay consistent with the original post, we will call it Notifying Scroll View . Then we will add an event handler which takes our Notifying Scroll View and the context of the calling Activity and and handles the fading for us.
  
+![image](https://user-images.githubusercontent.com/39096188/48374779-ddc42380-e693-11e8-833b-dba5753e3b4e.png)
 
 
 
