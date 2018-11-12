@@ -17,21 +17,25 @@ The way this effect is achieved is by effectively setting the alpha level of Act
 
 
 **STEP 1: CREATED ANDROIDMANIFEST.XML FILE:**
- 
+ ![image](https://user-images.githubusercontent.com/39096188/48374871-0f3cef00-e694-11e8-8b32-4e75755585dd.png)
 
 **Step 2: Created activity_main.xml file for layout or Design of an application.**
- 
+
+ ![image](https://user-images.githubusercontent.com/39096188/48374905-27ad0980-e694-11e8-813c-89c0f181dc11.png)
+
 **Step 3: Created activity_profile.xml file**
- 
+
+ ![image](https://user-images.githubusercontent.com/39096188/48374927-37c4e900-e694-11e8-8b7a-1e08d69db216.png)
 
 **Step 4: Created activity_scrolling.xml file**
  
- 
+![image](https://user-images.githubusercontent.com/39096188/48374980-60e57980-e694-11e8-9799-8f096bf60bff.png)
 
-
+![image](https://user-images.githubusercontent.com/39096188/48375000-6fcc2c00-e694-11e8-83ab-a33c81c98cfc.png)
 
 **Step 5: Created content_profile.xml file**
- 
+
+ ![image](https://user-images.githubusercontent.com/39096188/48375017-7ce91b00-e694-11e8-9913-3a922096073a.png)
  
 **Step 6: Created content_scrolling.xml file**
  
