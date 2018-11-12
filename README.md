@@ -7,6 +7,7 @@ Group  2
  Team Members: Akashdeep Sharma(1794147), Madhuri Patel(1794882), Gaurav Shepla(1794331), Baljeet Singh(1793897) 
 
 **Fading ActionBar:**
+
 Fading Action Bar is a library which implements the cool fading action bar effect that can be seen in the new Play Music app.
 This library uses the techniques outlined by Cyril Mottier in a recent blog post.
 The way this effect is achieved is by effectively setting the alpha level of Action Bar Drawable from maximum to zero as we scroll up and down. In order to achieve this effect, we need to know when the scroll state of the Scroll View has changed. This might seem like a trivial task, but thanks to Android not implementing an accessible event, we must create a workaround. To do this, we will extend the existing Scroll View and make it fire an event. In order to stay consistent with the original post, we will call it Notifying Scroll View . Then we will add an event handler which takes our Notifying Scroll View and the context of the calling Activity and and handles the fading for us.
@@ -19,6 +20,7 @@ The way this effect is achieved is by effectively setting the alpha level of Act
 
 
 **STEP 1: CREATED ANDROIDMANIFEST.XML FILE:**
+
  ![image](https://user-images.githubusercontent.com/39096188/48374871-0f3cef00-e694-11e8-8b32-4e75755585dd.png)
 
 **Step 2: Created activity_main.xml file for layout or Design of an application.**
