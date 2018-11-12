@@ -6,6 +6,11 @@ Group  2
 
  Team Members: Akashdeep Sharma(1794147), Madhuri Patel(1794882), Gaurav Shepla(1794331), Baljeet Singh(1793897) 
 
+**How project is working is shown in following video:**
+
+
+![2mdjg1](https://user-images.githubusercontent.com/39096188/48375995-9f306800-e697-11e8-9049-07db4b180824.gif)
+
 **Fading ActionBar:**
 
 Fading Action Bar is a library which implements the cool fading action bar effect that can be seen in the new Play Music app.
